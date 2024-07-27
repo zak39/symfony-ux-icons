@@ -1,3 +1,25 @@
 body {
     background-color: skyblue;
 }
+
+.button {
+    border: solid transparent 1px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+button {
+    font-size: 16px;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px 0 8px 0;
+}
